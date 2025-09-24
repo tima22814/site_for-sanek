@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Александр Мироник - Лучший самогонщик Сегежи</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', serif;
+        }
+
+        body {
+            background-color: #f5e8c3;
+            color: #3c2f15;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #8b5a2b, #6c451c);
+            color: #f5e8c3;
+            text-align: center;
+            padding: 2rem;
+            border-bottom: 5px solid #3c2f15;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-style: italic;
+            font-size: 1.4rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            background-color: #d9b87c;
+            border: 10px solid #8b5a2b;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            color: #6c451c;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.4rem;
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #d9b87c;
+            border-left: 5px solid #8b5a2b;
+            margin: 2rem 0;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            color: #6c451c;
+            border-bottom: 2px solid #8b5a2b;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .qualities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .quality-card {
+            background-color: #e9d6af;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .quality-card h3 {
+            color: #6c451c;
+            margin-bottom: 1rem;
+        }
+
+        .testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .testimonial {
+            background-color: #e9d6af;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            text-align: right;
+            color: #6c451c;
+        }
+
+        footer {
+            background: linear-gradient(to right, #8b5a2b, #6c451c);
+            color: #f5e8c3;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .quote {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Александр Мироник</h1>
+    <p class="subtitle">Легендарный самогонщик Сегежи и её окрестностей</p>
+</header>
+
+<div class="container">
+    <section class="hero">
+        <div class="hero-image">
+            <img src="photo.jpg" alt="Александр Мироник - лучший самогонщик Сегежи">
+        </div>
+
+        <div class="quote">
+            "У самогона душа есть, и говорить с ней нужно уважительно. Тогда и она тебя отблагодарит чистотой и вкусом."
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Мастер своего дела</h2>
+        <p>В небольшом карельском городе Сегежа живёт и творит удивительный человек — Александр Мироник. Его имя стало синонимом качества, а мастерство в искусстве самогоноварения не имеет равных во всём регионе.</p>
+        <p>Секреты своего умения Александр перенял от деда и оттачивал долгие годы, превратив простое увлечение в настоящее искусство. Каждая капля его напитка пропитана любовью к традициям, вниманием к деталям и неповторимым карельским характером.</p>
+
+        <div class="qualities">
+            <div class="quality-card">
+                <h3>Чистота продукта</h3>
+                <p>Самогон Александра кристально чистый, без вредных примесей и сивушных масел. Он использует только качественные ингредиенты и многократную фильтрацию.</p>
+            </div>
+
+            <div class="quality-card">
+                <h3>Непревзойдённый вкус</h3>
+                <p>Благодаря уникальной технологии и секретным методам, его напитки обладают мягким, благородным вкусом с неповторимыми оттенками.</p>
+            </div>
+
+            <div class="quality-card">
+                <h3>Традиции и инновации</h3>
+                <p>Александр сочетает старинные рецепты с современными знаниями, создавая поистине уникальные напитки, которые ценят даже признанные гурманы.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Свидетельства признания</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p class="testimonial-text">"Пробовал самогон у разных мастеров, но у Александра — это нечто особенное. Чистый, мягкий, без головной боли наутро. Настоящее искусство!"</p>
+                <p class="testimonial-author">— Сергей, постоянный клиент</p>
+            </div>
+
+            <div class="testimonial">
+                <p class="testimonial-text">"Как переехал в Питер, так и тоскую по настоящему сегежскому самогону от Мироника. Ничего подобного нигде больше не пробовал."</p>
+                <p class="testimonial-author">— Дмитрий, бывший житель Сегежи</p>
+            </div>
+
+            <div class="testimonial">
+                <p class="testimonial-text">"На свадьбе дочки был самогон от Александра — гости до сих пор вспоминают! Это лучшая рекомендация."</p>
+                <p class="testimonial-author">— Ольга Петровна, заказчица</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Фирменные напитки</h2>
+        <p>Александр Мироник славится не только классическим самогоном, но и уникальными настойками:</p>
+        <ul>
+            <li>«Сегежская слеза» — мягкий напиток с медовыми нотками</li>
+            <li>«Карельский боровичок» — настойка на белых грибах по старинному рецепту</li>
+            <li>«Сосновая сила» — целебная настойка на сосновых почках</li>
+            <li>«Ягодный дух» — ароматный напиток на основе брусники и клюквы</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>Александр Мироник — гордость Сегежи и непревзойдённый мастер самогоноварения</p>
+    <p>© 2023 Сайт создан по многочисленным просьбам ценителей качественных напитков</p>
+</footer>
+</body>
+</html>
